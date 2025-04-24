@@ -259,3 +259,10 @@ body {
     font-size: 0.95rem;
   }
 }
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #998888;
+  font-size: 14px;
+}
