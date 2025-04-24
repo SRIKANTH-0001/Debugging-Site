@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Debugging Challenge-Symbo Fest 2025</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Your CSS File -->
+  <link rel="stylesheet" href="Styles/Details.css" />
+</head>
+
+<body>
+
+  <h1 class="glow-heading">KEEP CALM AND DEBUG ON</h1>
+
+  <div class="container">
+    <div class="card" style="--color:#38bdf8">
+      <i class="fas fa-calendar-alt"></i>
+      <h2 class="title">Event Details</h2>
+      <p class="description">
+        <strong>Date:</strong> 25th April<br>
+        <strong>Time:</strong> 2:00 PM<br>
+        <strong>Venue:</strong> Ground Floor Lab
+     </p>
+    </div>
+
+    <div class="card" style="--color:#f67280">
+      <i class="fas fa-sitemap"></i>
+      <h2 class="title">Event Structure</h2>
+      <p class="description">
+        Level 1: Quick Fix(30 Min)<br>
+        Level 2: Debug Blitz(30 Min)<br>
+      </p>
+    </div>
+
+    <div class="card" style="--color:#c06c84">
+      <i class="fas fa-gavel"></i>
+      <h2 class="title">Event Rules</h2>
+      <ul class="description">
+        <li>Individual participation only<br></li>
+        <li>2 Rounds total<br></li>
+        <li>No internet access for any other Websites<br></li> 
+        <li>  Sign Up 15 minutes early</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--color:#6c5b7b">
+      <i class="fas fa-award"></i>
+      <h2 class="title">Prizes</h2>
+      <p class="description">
+        Top 3 performers will win exciting prizes based on total performance!
+      </p>
+    </div>
+  </div>
+  <div class="button-container">
+    <button class="glow-btn" id="level1-btn">Level 1 Contest</button>
+    <button class="glow-btn" id="level2-btn">Level 2 Contest</button>
+  </div>
+  <script>
+    document.getElementById("level1-btn").addEventListener("click", function () {
+      window.location.href = "https://www.hackerrank.com/debugging-contest-01"; 
+    });
+
+    document.getElementById("level2-btn").addEventListener("click", function () {
+      window.location.href = "https://www.hackerrank.com/debugging-contest-02"; 
+    });
+  </script>
+  </body>
+</body>
+</html>
